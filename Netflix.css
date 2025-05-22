@@ -13,34 +13,33 @@ body {
 
 /* Navbar */
 .navbar {
-    position: fixed;
-    top: 0;
-    left: 0;
     width: 100%;
-    padding: 20px;
-    background-color: rgba(0, 0, 0, 0.5);
+    padding: 14px;
+    background-color: #141414;
     display: flex;
-    justify-content: space-between;
     align-items: center;
     z-index: 1000;
 }
 
-.navbar .logo {
+ .logo {
+    margin-top: 20px;
     width: 120px;
 }
 
-.navbar .sign-in {
+ .sign-in {
     background-color: white;
     color: black;
     border: none;
-    padding: 10px 20px;
+    padding: 5px 20px;
+    margin-top: 5px;
+    margin-left: 76rem;
     font-size: 16px;
     cursor: pointer;
-    border-radius: 3px;
+    border-radius: 20px;
 }
 
 .navbar .sign-in:hover {
-    background-color: #f40612;
+    background-color: hsl(#aaaaaa);
 }
 
 /* Banner */
@@ -55,7 +54,6 @@ body {
 }
 
 .banner-content {
-    background-color: rgba(0, 0, 0, 0.6); /* Semi-transparent background */
     padding: 20px;
     border-radius: 10px;
     display: inline-block;
@@ -105,10 +103,13 @@ body {
 .movie-section {
     padding: 50px 0;
     text-align: center;
+    margin: 20px 120px 15px;
 }
 
 .movie-section h2 {
     font-size: 2rem;
+    text-align: left;
+    margin-left: 30px;
     margin-bottom: 20px;
 }
 
@@ -143,6 +144,7 @@ body {
 .plan-cards {
     display: flex;
     justify-content: center;
+    margin-top: 30px;
     gap: 20px;
     flex-wrap: wrap;
 }
@@ -179,7 +181,7 @@ body {
 .reasons {
     padding: 50px 20px;
     text-align: center;
-    background-color: #222222;
+    background-color: #141414;
 }
 
 .reasons h2 {
@@ -189,8 +191,9 @@ body {
 
 .reason-cards {
     display: flex;
-    justify-content: space-around;
-    gap: 20px;
+    justify-content: space-evenly;
+    margin: 0 100px;
+    gap: 10px;
     flex-wrap: wrap;
 }
 
@@ -198,7 +201,7 @@ body {
     background-color: #333;
     padding: 20px;
     border-radius: 8px;
-    width: 230px;
+    width: 270px;
     text-align: center;
 }
 
@@ -249,7 +252,7 @@ body {
     color: #757575;
 }
 
-.footer p {
+.footer h4 {
     font-size: 1rem;
 }
 
@@ -274,3 +277,4 @@ body {
         width: 100px;
     }
 }
+
